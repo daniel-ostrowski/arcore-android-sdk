@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.daniel-ostrowski'
 
 def setVersionName = { ->
     if (project.hasProperty("androidVersionName")) {
