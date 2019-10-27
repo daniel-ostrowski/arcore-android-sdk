@@ -1,3 +1,7 @@
+What is this?
+=============
+I was trying to use AR Core for a school project and was using the "Hello AR" example as a reference. The example makes copious use of helper classes written just for that example. I wanted to use those helper classes myself. I could not figure out how to get jitpack.io to build a subdirectory of a git repo, so I just removed everything except the Hello AR Java example and moved up the example's files to the root of this project. I realize this is extremely crude. However, if the API were more user-friendly and included such functionality out of the box, then I would not need these helper classes.
+
 ARCore SDK for Android
 ======================
 Copyright 2017 Google LLC.  All rights reserved.
