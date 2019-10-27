@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.daniel-ostrowski'
@@ -16,7 +16,6 @@ def setVersionName = { ->
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.google.ar.core.examples.java.helloar"
 
         // AR Optional apps must declare minSdkVersion >= 14.
         // AR Required apps must declare minSdkVersion >= 24.
